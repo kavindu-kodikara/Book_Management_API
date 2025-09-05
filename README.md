@@ -54,7 +54,7 @@ JWT_SECRET=yoyr_secret_key
 Use the provided [`book_management_api.sql`](docs/book_management_api.sql) `book_management_api.sql` file to create tables:
 
 ```sql
-mysql -u root -p book_management < book_management.sql
+mysql -u root -p book_management < book_management_api.sql
 ```
 
 ### 5. Start the server
