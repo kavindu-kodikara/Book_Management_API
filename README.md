@@ -51,7 +51,7 @@ JWT_SECRET=yoyr_secret_key
 
 ### 4. Run database migrations
 
-Use the provided `book_management.sql` file to create tables:
+Use the provided [`book_management_api.sql`](docs/book_management_api.sql) `book_management_api.sql` file to create tables:
 
 ```sql
 mysql -u root -p book_management < book_management.sql
@@ -167,6 +167,17 @@ npm start
 ```
 
 ---
+
+##  Additional Documentation
+
+This repository includes comprehensive documentation to help you get started:
+
+- **🗄️ Database Schema:** Complete SQL schema file (`book_management_api.sql`) with all tables, relationships, and constraints
+- **📊 ER Diagram:** Visual database relationship diagram showing the complete data model
+- **📮 Postman Collection:** Ready-to-use API request collection for testing all endpoints
+- **📁 Location:** All documentation files are available in the [`docs/`](./docs) folder
+
+> 💡 **Quick Start Tip:** Import the Postman collection and set up the database using the provided schema file to get up and running quickly!
 
 ## ⚠️ Notes
 
