@@ -13,6 +13,7 @@ Built with **Node.js**, **Express**, **MySQL**, and **JWT Authentication**.
 - Add and fetch **book reviews**
 - **Search books** by title, author, or category
 - File upload support for **book covers**
+- API documentation using **Swagger UI**
 
 ---
 
@@ -64,6 +65,7 @@ npm run start:dev
 ```
 
 - **Server URL:** http://localhost:3000/api
+- **Swagger API doc:** http://localhost:3000/api-docs
 
 ---
 
