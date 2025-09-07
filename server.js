@@ -10,6 +10,7 @@ import publisherRoute from "./src/routes/publisherRoute.js";
 import bookRoute from "./src/routes/bookRoute.js";
 import reviewRout from "./src/routes/reviewRout.js";
 import userRoute from "./src/routes/userRoute.js";
+import {swaggerServe, swaggerUiMiddleware} from "./src/config/swagger.js";
 
 dotenv.config();
 
@@ -17,6 +18,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use("/api-docs", swaggerServe, swaggerUiMiddleware);
 
 // set port for requests
 const PORT = process.env.PORT || 3000;
