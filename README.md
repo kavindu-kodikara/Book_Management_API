@@ -47,12 +47,12 @@ DB_PASSWORD=your_password
 DB_NAME=book_management_api
 DB_PORT=3306
 
-JWT_SECRET=yoyr_secret_key
+JWT_SECRET=your_secret_key
 ```
 
 ### 4. Run database migrations
 
-Use the provided [`book_management_api.sql`](docs/book_management_api.sql) `book_management_api.sql` file to create tables:
+Use the provided [`book_management_api.sql`](docs/book_management_api.sql) file to create tables:
 
 ```sql
 mysql -u root -p book_management < book_management_api.sql
